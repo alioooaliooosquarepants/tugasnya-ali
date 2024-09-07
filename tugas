@@ -1,0 +1,26 @@
+#include <stdio.h>
+int angka;
+    int main(){
+        printf("masukan angka=");
+        scanf ("%d",&angka);
+        if(angka==10){
+        printf("nilai=%d\n",angka);
+        }
+        else if (angka<10){
+        printf("kurang");
+        }
+        else if (angka>10){
+        printf("kebanyakan");
+        }
+    
+    
+    printf("siapa kamu?");
+    scanf("%d",&angka);
+    if (angka==100){
+    printf ("silahkan");
+    }
+    else if (angka!=100){
+        printf ("coba lagi");
+    }
+    }
+    
